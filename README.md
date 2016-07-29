@@ -15,9 +15,7 @@ Useful links:
 
 
 ###Sample os service contract 
-*JSON Scheme in https://github.com/erlangMS/schema/blob/master/schema_catalog_v1.0.0.json
 
-JSON:
 ```
 {
   "name": "/hackathon/cursos/:id",
@@ -46,3 +44,5 @@ JSON:
   }
 }
 ```
+
+JSON Scheme for validation: in https://github.com/erlangMS/schema/blob/master/schema_catalog_v1.0.0.json
