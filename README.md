@@ -45,4 +45,4 @@ Useful links:
 }
 ```
 
-JSON Scheme for validation: in https://github.com/erlangMS/schema/blob/master/schema_catalog_v1.0.0.json
+JSON Schema for validation: in https://github.com/erlangMS/schema/blob/master/schema_catalog_v1.0.0.json
