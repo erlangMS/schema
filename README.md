@@ -29,7 +29,7 @@ JSON:
   "public": true,
   "datasource": {
     "type": "csvfile",
-    "connection": "DSN=sitab;UID=UsuTabelaApoio;PWD=tabelaapoio;",
+    "csvfile": "cursos.csv",
     "table_name": "Tbl_Cursos",
     "primary_key": "semestre"
   },
