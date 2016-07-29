@@ -1,4 +1,4 @@
-ErlangMS Schemas
+ErlangMS Schemas Catalogs
 ====
 
 ErlangMS is a platform developed in *Erlang/OTP* to facilitate the integration of systems through a service-oriented approach for the systems of the University of Brazilia. This work is the result of efforts made in the Master of Applied Computing at the University of Brasilia by graduate student *Everton Vargas Agilar*. 
