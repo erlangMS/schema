@@ -7,7 +7,8 @@ The platform consists of a Enterprise Service Bus (ESB), called *EmsBus*, and a 
 
 ###What's in this folder
 
-This folder contains the JSON Schemas to describe the service catalogs layout of the ErlangMS.
+This folder contains the JSON Schemas Draft 4 to describe the service catalogs layout of the ErlangMS.
 
-
-* Ferramenta para validar JSON schemas: http://jsonschema.net/#/home
+Useful links:
+* Ferramenta para validar JSON schemas -- http://jsonschema.net/#/home
+* Portal json-schema --  http://json-schema.org/
