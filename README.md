@@ -7,8 +7,41 @@ The platform consists of a Enterprise Service Bus (ESB), called *EmsBus*, and a 
 
 ###What's in this folder
 
-This folder contains the JSON Schemas Draft 4 to describe the service catalogs layout of the ErlangMS.
+This folder contains the JSON Schemas Draft 4 to describe the service contract layout of the ErlangMS service catalogs.
 
 Useful links:
 * Tool to validate JSON Schemas -- http://jsonschema.net/#/home
 * Portal json-schema --  http://json-schema.org/
+
+
+###Sample os service contract
+
+JSON:
+```
+{
+  "name": "/hackathon/cursos/:id",
+  "comment": "Lista um curso pelo seu identificador",
+  "owner": "hackathon",
+  "version": "1.0.0",
+  "service": "ems_dynamic_view_service:find_by_id",
+  "url": "/hackathon/cursos/:id",
+  "type": "GET",
+  "public": true,
+  "datasource": {
+    "type": "csvfile",
+    "connection": "DSN=sitab;UID=UsuTabelaApoio;PWD=tabelaapoio;",
+    "table_name": "Tbl_Cursos",
+    "primary_key": "semestre"
+  },
+  "lang": "erlang",
+  "debug": false,
+  "authentication": "oauth",
+  "querystring": {
+    "filter": "[\"codigo\" = 1]",
+    "fields": "semestre, nome_professor",
+    "limit_ini": 2,
+    "limit_offset": 1000,
+    "sort": "semestre desc, nome_professor asc"
+  }
+}
+```
