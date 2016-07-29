@@ -95,7 +95,6 @@
       "oneOf": [
         {
           "required": [
-            "type",
             "connection",
             "table_name",
             "primary_key"
@@ -103,7 +102,6 @@
         },
         {
           "required": [
-            "type",
             "csvfile",
             "table_name",
             "primary_key"
