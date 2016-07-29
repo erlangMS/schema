@@ -26,14 +26,7 @@ Useful links:
   "url": "/hackathon/cursos/:id",
   "type": "GET",
   "public": true,
-  "datasource": {
-    "type": "csvfile",
-    "csvfile": "cursos.csv",
-    "table_name": "Tbl_Cursos",
-    "primary_key": "semestre"
-  },
   "lang": "erlang",
-  "debug": false,
   "authentication": "oauth",
   "querystring": {
     "filter": "[\"codigo\" = 1]",
