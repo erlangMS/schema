@@ -29,11 +29,11 @@ Useful links:
   "lang": "erlang",
   "authentication": "oauth",
   "querystring": {
-    "filter": "[\"codigo\" = 1]",
-    "fields": "semestre, nome_professor",
-    "limit_ini": 2,
-    "limit_offset": 1000,
-    "sort": "semestre desc, nome_professor asc"
+    "filter": "",
+    "fields": "semestre, nome_curso",
+    "limit_ini": 1,
+    "limit_offset": 100,
+    "sort": "semestre desc, nome_curso asc"
   }
 }
 ```
