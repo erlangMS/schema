@@ -14,7 +14,8 @@ Useful links:
 * Portal json-schema --  http://json-schema.org/
 
 
-###Sample os service contract
+###Sample os service contract 
+*JSON Scheme in https://github.com/erlangMS/schema/blob/master/schema_catalog_v1.0.0.json
 
 JSON:
 ```
