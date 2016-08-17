@@ -166,6 +166,7 @@
           "description": "Initial pager to query data.",
           "minimum": 1,
           "maximum": 9999,
+          "default": 1,
           "required": [
             "minimum",
             "maximum"
@@ -177,6 +178,7 @@
           "description": "Pager offset to query data.",
           "minimum": 1,
           "maximum": 9999,
+          "default": 100,
           "required": [
             "minimum",
             "maximum"
